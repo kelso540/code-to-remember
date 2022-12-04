@@ -11,6 +11,7 @@ npm i -save body-parser
 npm i -save knex
 npm i -save nodeman
 git init
+git remote add origin https://github.com/kelso540/code-to-remember.git
 git status
 git add .
 git commit -m "fixed mobile view"
@@ -27,4 +28,4 @@ npx knex migrate:latest
 sudo npm i -g netlify-cli
 netlify functions:create
 netlify dev
-setScroll(current=>[...current, img]) //for adding to end of array react
+setScroll(current=>[...current, img]) //to push item to end of array react 
