@@ -1,0 +1,30 @@
+npm init
+npm i -save react-spring  
+npm i -save react-router-dom@6
+npm i -save @formspree/react
+npx create-react-app .
+npm i --save react-browser-router
+npm i -save sqlite3
+npm i -save express
+npm i -save bcryptjs
+npm i -save body-parser
+npm i -save knex
+npm i -save nodeman
+git init
+git status
+git add .
+git commit -m "fixed mobile view"
+git push
+git branch -M main
+git push -u origin main
+npm i --save @fortawesome/fontawesome-svg-core
+npm i --save @fortawesome/free-solid-svg-icons 
+npm i --save @fortawesome/free-regular-svg-icons
+npm i --save @fortawesome/react-fontawesome@latest
+npx knex init
+npx knex migrate:make saved-games-table
+npx knex migrate:latest
+sudo npm i -g netlify-cli
+netlify functions:create
+netlify dev
+setScroll(current=>[...current, img]) //for adding to end of array react
