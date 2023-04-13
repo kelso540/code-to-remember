@@ -26,6 +26,7 @@ npx knex init
 npx knex migrate:make saved-games-table
 npx knex migrate:latest
 sudo npm i -g netlify-cli
+netlify init
 netlify functions:create
 netlify dev
 setScroll(current=>[...current, img]) //to push item to end of array react 
