@@ -37,3 +37,4 @@ netlify dev
 setScroll(current=>[...current, img]) //to push item to end of array react 
 _redirects 
 /* /index.html 200
+sudo npm cache clean --force 
